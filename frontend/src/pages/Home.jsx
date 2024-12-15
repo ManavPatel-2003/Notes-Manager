@@ -100,7 +100,9 @@ function Home() {
       }
     )
     .catch( (error) => alert(error))
-    
+    setContent("")
+    setTitle("")
+    setNoteId("")
     setOpenEditNote(
       {
         isShown: false, 
